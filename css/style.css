@@ -1,0 +1,121 @@
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+/* TYPO RULES */
+body {
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 70px;
+    color: #23272a;
+}
+
+/* UTILITY */
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.centered {
+    margin: 0 auto;
+}
+
+.w70 {
+    width: 70%;
+}
+
+.w40 {
+    width: 40%;
+}
+
+.btn {
+    padding: 12px 15px;
+    border-radius: 50px;
+}
+
+.bw {
+    background-color: white;
+    color: black;
+}
+
+.dark {
+    background-color: #23272a;
+    color: white;
+}
+/* STYLING */
+
+header {
+    background-color: #255ee9;
+}
+
+.header_head {
+    line-height: 100%;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 150px;
+}
+
+.header_head span img {
+    width: 160px;
+    vertical-align: middle;
+}
+
+nav {
+    display: inline-block;
+}
+
+.header_head nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 22px;
+}
+
+.header_head .log_in{
+    float: right;
+}
+
+.brand {
+    float: left;
+}
+
+.banner {
+    width: 100%;
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+}
+
+.banner div.w40.centered {
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner h1 {
+    margin-bottom: 80px;
+    color: white;
+}
+
+.banner .cta_box {
+    margin-top: 45px;
+    padding-bottom: 200px;
+}
+
+.btn i {
+    margin-right: 10px;
+}
+
+.banner .cta_box a {
+    margin: 0 20px;
+}
