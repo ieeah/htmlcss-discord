@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px solid red;
 }
 
 a {
@@ -35,12 +36,28 @@ h3 {
     margin: 0 auto;
 }
 
-.w70 {
-    width: 70%;
+.w30 {
+    width: 30%;
 }
 
 .w40 {
     width: 40%;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.w60 {
+    width: 60%;
+}
+
+.w70 {
+    width: 70%;
+}
+
+.f_left {
+    float: left;
 }
 
 .btn {
@@ -63,8 +80,20 @@ h3 {
     text-align: center;
 }
 
+.al_left {
+    text-align: left;
+}
+
+.pd120px {
+    padding-right: 300px;
+}
+
 .ft_wht {
     color: white;
+}
+
+.bg_grey {
+    background-color: #f6f6f6;
 }
 /* STYLING */
 
@@ -127,3 +156,8 @@ nav {
 .banner .cta_box a {
     margin: 0 20px;
 }
+
+section {
+    padding: 80px 0;
+}
+
