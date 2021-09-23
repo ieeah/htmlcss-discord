@@ -269,7 +269,7 @@ nav {
 }
 
 section {
-    padding: 100px 0;
+    padding: 100px 12%;
 }
 
 section .section_img {
@@ -307,6 +307,7 @@ section .section_img {
 }
 
 footer img.flag {
+    line-height: 60px;
     width: 30px;
     vertical-align: middle;
 }
