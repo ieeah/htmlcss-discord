@@ -13,19 +13,22 @@ a {
 
 /* TYPO RULES */
 body {
-    font-size: 30px;
+    font-size: 27px;
+    color: #23272a;
     font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
     font-size: 75px;
-    color: white;
 }
 
 h2 {
-    font-size: 50px;
-    color: #23272a;
+    font-size: 45px;
     margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 38px;
 }
 
 /* UTILITY */
@@ -39,8 +42,8 @@ h2 {
     margin: 0 auto;
 }
 
-.w30 {
-    width: 30%;
+.w25 {
+    width: 25%;
 }
 
 .w40 {
@@ -63,6 +66,10 @@ h2 {
     width: 80%;
 }
 
+.w90 {
+    width: 90%;
+}
+
 .f_left {
     float: left;
 }
@@ -71,20 +78,27 @@ h2 {
     float: right;
 }
 
+.white_txt {
+    color: white;
+}
+
 .btn {
     padding: 12px 26px;
     border-radius: 50px;
     font-size: 22px;
 }
 
-.bw {
+.bg_w {
     background-color: white;
-    color: black;
+    color: #23272a;
 }
 
-.dark {
+.bg_dark {
     background-color: #23272a;
-    color: white;
+}
+
+.bg_violet {
+    background-color: #8ea1e1;
 }
 
 .al_center {
@@ -103,16 +117,30 @@ h2 {
     padding-left: 100px;
 }
 
+.pdr100px {
+    padding-right: 100px;
+}
+
+.pdl300px {
+    padding-left: 300px;;
+}
+
 .pdr300px {
     padding-right: 200px;
 }
 
-.ft_wht {
-    color: white;
-}
-
 .bg_grey {
     background-color: #f6f6f6;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute_vertical {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 /* STYLING */
 
@@ -125,9 +153,12 @@ header {
     padding-top: 30px;
 }
 
-.header_head span img {
-    width: 160px;
+
+
+.header_head .brand img {
+    width: 180px;
     vertical-align: middle;
+    display: inline-block;
 }
 
 nav {
@@ -177,11 +208,13 @@ nav {
 }
 
 section {
-    padding: 80px 0;
+    padding: 100px 0;
 }
 
 section .section_img {
-    height:700px;
+    /* height:700px; */
+    object-fit: cover;
+    display: block;
 }
 
 .section_img img {
@@ -190,13 +223,28 @@ section .section_img {
 }
 
 .section_txt_container {
-    position: relative;
     height: 100%;
+    /* padding: 50px 0 0 11px; */
 }
 
-.section_txt {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.section_txt_container p {
+    line-height: 38px;
+}
+
+.img_first .section_txt_container {
+    padding: 90px 0 0 11px;
+}
+
+.bottom_banner_cta {
+    padding-bottom: 150px;
+}
+
+.bottom_banner_cta .stars_heading {
+    margin-bottom: 45px;
+}
+
+.stars_heading h3 {
+    padding-top: 48px;
+    background: url("../img/stars.svg") no-repeat top center;
+    background-size: 44%;
 }
