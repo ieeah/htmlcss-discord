@@ -32,12 +32,24 @@ h3 {
 }
 
 h5 {
-    font-size: 25px;
+    font-size: 23px;
     color: #7289da;
 }
 
 .lh_60px {
     line-height: 60px;
+}
+
+.lh40px {
+    line-height: 40px;
+}
+
+.fsz14 {
+    font-size: 14px;
+}
+
+.fsz20 {
+    font-size: 20px;
 }
 
 /* UTILITY */
@@ -106,7 +118,6 @@ h5 {
 .btn {
     padding: 12px 26px;
     border-radius: 50px;
-    font-size: 22px;
 }
 
 .bg_w {
@@ -182,6 +193,14 @@ h5 {
     padding-right: 200px;
 }
 
+.pdbot30px {
+    padding-bottom: 30px;
+}
+
+.pdbot50px {
+    padding-bottom: 50px;
+}
+
 .pdbott150px {
     padding-bottom: 150px;
 }
@@ -229,10 +248,6 @@ nav {
     font-size: 22px;
 }
 
-.log_in a {
-    font-size: 20px;
-}
-
 .banner {
     background-image: url("../img/jumbo.png");
     background-size: cover;
@@ -246,10 +261,6 @@ nav {
 .banner .cta_box {
     padding-top: 75px;
     padding-bottom: 200px;
-}
-
-.btn i {
-    margin-right: 10px;
 }
 
 .banner .cta_box a {
@@ -296,10 +307,5 @@ section .section_img {
 
 footer img.flag {
     width: 30px;
-    vertical-align: middle;
-}
-
-.fsz14 {
-    font-size: 14px;
     vertical-align: middle;
 }
