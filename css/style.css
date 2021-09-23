@@ -228,13 +228,14 @@ header {
 }
 
 .header_head {
-    line-height: 100%;
+    line-height: 60px;
     padding-top: 30px;
 }
 
 .header_head .brand img {
     width: 180px;
     bottom: 10px;
+    vertical-align: middle;
 }
 
 nav {
