@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 a {
@@ -31,6 +31,15 @@ h3 {
     font-size: 38px;
 }
 
+h5 {
+    font-size: 25px;
+    color: #7289da;
+}
+
+.lh_60px {
+    line-height: 60px;
+}
+
 /* UTILITY */
 .clearfix::after {
     content: '';
@@ -42,8 +51,16 @@ h3 {
     margin: 0 auto;
 }
 
+.w17 {
+    width: 17%;
+}
+
 .w25 {
     width: 25%;
+}
+
+.w32 {
+    width: 32%;
 }
 
 .w40 {
@@ -82,6 +99,10 @@ h3 {
     color: white;
 }
 
+.purple_txt {
+    color: #7289da;
+}
+
 .btn {
     padding: 12px 26px;
     border-radius: 50px;
@@ -113,20 +134,56 @@ h3 {
     text-align: right;
 }
 
-.pdl100px {
-    padding-left: 100px;
+.pdl10px {
+    padding-left: 10px;
 }
 
-.pdr100px {
-    padding-right: 100px;
+.pdl80px {
+    padding-left: 80px;
+}
+
+.pdl100px {
+    padding-left: 100px;
 }
 
 .pdl300px {
     padding-left: 300px;;
 }
 
+.pdtop25px {
+    padding-top: 25px;
+}
+
+.pdtop50px {
+    padding-top: 50px;
+}
+
+.pdtop100px {
+    padding-top: 100px;
+}
+
+.pdr10px {
+    padding-right: 10px;
+}
+
+.pdr20px {
+    padding-right: 20px;
+}
+
+.pdr40px {
+    padding-right: 40px;
+}
+
+.pdr80px {
+    padding-right: 80px;
+}
+
 .pdr300px {
     padding-right: 200px;
+}
+
+.pdbott150px {
+    padding-bottom: 150px;
 }
 
 .bg_grey {
@@ -137,11 +194,14 @@ h3 {
     position: relative;
 }
 
-.absolute_vertical {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+.v_middle {
+    vertical-align: middle;
 }
+
+.lst_deco_none {
+    list-style: none;
+}
+
 /* STYLING */
 
 header {
@@ -153,12 +213,9 @@ header {
     padding-top: 30px;
 }
 
-
-
 .header_head .brand img {
     width: 180px;
-    vertical-align: middle;
-    display: inline-block;
+    bottom: 10px;
 }
 
 nav {
@@ -170,14 +227,6 @@ nav {
     display: inline-block;
     margin: 0 15px;
     font-size: 22px;
-}
-
-.header_head .log_in{
-    float: right;
-}
-
-.brand {
-    float: left;
 }
 
 .log_in a {
@@ -195,7 +244,7 @@ nav {
 }
 
 .banner .cta_box {
-    margin-top: 75px;
+    padding-top: 75px;
     padding-bottom: 200px;
 }
 
@@ -231,13 +280,9 @@ section .section_img {
     line-height: 38px;
 }
 
-.img_first .section_txt_container {
+/* .img_first .section_txt_container {
     padding: 90px 0 0 11px;
-}
-
-.bottom_banner_cta {
-    padding-bottom: 150px;
-}
+} */
 
 .bottom_banner_cta .stars_heading {
     margin-bottom: 45px;
@@ -247,4 +292,14 @@ section .section_img {
     padding-top: 48px;
     background: url("../img/stars.svg") no-repeat top center;
     background-size: 44%;
+}
+
+footer img.flag {
+    width: 30px;
+    vertical-align: middle;
+}
+
+.fsz14 {
+    font-size: 14px;
+    vertical-align: middle;
 }
